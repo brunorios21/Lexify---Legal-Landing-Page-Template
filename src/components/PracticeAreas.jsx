@@ -1,4 +1,6 @@
 import { Building2, Landmark, Scale, FileText, Cpu, Briefcase, ShieldCheck, Leaf, Zap } from 'lucide-react';
+import bgImage from '../images/_ (9).jpeg';
+import bgVideo from '../videos/video2.mp4';
 import styles from './PracticeAreas.module.css';
 
 const areas = [
@@ -17,8 +19,8 @@ function PracticeAreas() {
   return (
     <section id="areas" className={styles.section}>
       <div className={`${styles.banner} reveal-cascade`}>
-        <video autoPlay loop muted playsInline className={styles.impactVideoBg}>
-          <source src="/src/videos/video2.mp4" type="video/mp4" />
+        <video autoPlay loop muted playsInline poster={bgImage} className={styles.impactVideoBg}>
+          <source src={bgVideo} type="video/mp4" />
         </video>
         <div className={styles.bannerOverlay} />
         <div className={styles.bannerContent}>
