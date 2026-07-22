@@ -8,7 +8,7 @@
   background: var(--navy-2);
 }
 
-.heroImageBg {
+.heroVideoBg {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -98,3 +98,4 @@
     align-items: flex-start;
   }
 }
+
