@@ -14,7 +14,7 @@ La interfaz web presenta una experiencia de navegacion continua y fluida disenad
 
 ### Seccion Principal y Propuesta de Valor
 
-![Seccion Principal](capturas_del_proyecto/imagen_1.jpg)
+![Seccion Principal](capturas_del_proyecto/imagen1.jpg)
 
 La vista inicial exhibe un diseño de impacto visual con un encabezado institucional navegable y un area de bienvenida con fondo tematizado. Destacan los botones de accion para la consulta especializada y exploracion de areas, un selector de idioma, acceso directo a contacto y una llamada a la accion flotante para consultas confidenciales.
 
@@ -22,7 +22,7 @@ La vista inicial exhibe un diseño de impacto visual con un encabezado instituci
 
 ### Seccion de Areas de Practica
 
-![Areas de Practica](capturas_del_proyecto/imagen_2.jpg)
+![Areas de Practica](capturas_del_proyecto/imagen2.jpg)
 
 Esta vista presenta el catalogo de soluciones juridicas mediante una distribucion en reticula con tarjetas categorizadas. Se aprecian especialidades en Derecho Corporativo, Banca y Finanzas, y Litigios Complejos, acompañadas de una seccion destacada con fondo oscuro que resume la orientacion estrategica de la firma.
 
@@ -30,7 +30,7 @@ Esta vista presenta el catalogo de soluciones juridicas mediante una distribucio
 
 ### Modal Perfil Profesional
 
-![Perfil Profesional](capturas_del_proyecto/imagen_3.jpg)
+![Perfil Profesional](capturas_del_proyecto/imagen3.jpg)
 
 La interfaz incluye un componente modal superpuesto para visualizar la biografia ejecutiva de los socios del bufete. Muestra una fotografia de alta resolucion, trayectoria academica, especializaciones tecnicas y un boton directo de contacto via correo electronico institucional.
 
