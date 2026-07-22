@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Meridian Legal Studio icon">
+  <rect width="64" height="64" rx="16" fill="#071422"/>
+  <path d="M18 17h12l10 12-10 12H18V17z" fill="#C5A059"/>
+  <path d="M31 17h15l-7 12 7 12H31l-7-12 7-12z" fill="#F6E7C2"/>
+  <path d="M24 30h16" stroke="#C5A059" stroke-width="2.4" stroke-linecap="round"/>
+</svg>
