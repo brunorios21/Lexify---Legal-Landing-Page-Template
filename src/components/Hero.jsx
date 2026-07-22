@@ -5,7 +5,9 @@ import styles from './Hero.module.css';
 function Hero() {
   return (
     <section className={styles.hero}>
-      <img src={heroImage} alt="Portada institucional de Meridian Legal Studio" className={styles.heroImageBg} />
+      <video autoPlay loop muted playsInline className={styles.heroVideoBg} poster={heroImage}>
+        <source src="/video1.mp4" type="video/mp4" />
+      </video>
       <div className={styles.overlay} />
       <div className={styles.heroContent}>
         <div className={`${styles.badge} reveal-cascade cascade-delay-1`}>
