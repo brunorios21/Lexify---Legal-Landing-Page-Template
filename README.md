@@ -4,6 +4,10 @@
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://shrink.me/CSS3)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/es/docs/Web/HTML)
 
+## Visualización del proyecto
+
+https://meridianlegalstudiio.netlify.app/
+
 ## Descripcion General del Desplazamiento y Navegacion
 
 La interfaz web presenta una experiencia de navegacion continua y fluida disenada bajo principios de arquitectura moderna. El desplazamiento vertical integra transiciones suaves entre secciones institucionales, destacando elementos visuales clave como encabezados fijos con transparencia, tarjetas interactivas de servicios y ventanas modales flotantes que mantienen el contexto operativo del usuario en todo momento. La disposicion visual optimiza la jerarquia de informacion para brindar respuestas inmediatas ante la consulta de servicios legales corporativos.
