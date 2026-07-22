@@ -1,0 +1,90 @@
+.section {
+  padding: 5rem 2rem;
+  background: linear-gradient(180deg, #f7f9fc 0%, #eef2f7 100%);
+}
+
+.eyebrow {
+  color: #c5a059;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-size: 0.77rem;
+  margin: 0 0 0.35rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.3rem;
+}
+
+.card {
+  border: 0;
+  padding: 0;
+  text-align: left;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 0.95rem;
+}
+
+.imageWrapper {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  position: relative;
+  border-radius: 4px;
+  background-color: #0f172a;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  filter: grayscale(18%) saturate(1.04) contrast(1.03);
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), filter 0.6s ease;
+}
+
+.card:hover .image,
+.card:focus-visible .image {
+  transform: scale(1.05);
+  filter: grayscale(0%);
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.name {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #0a192f;
+}
+
+.role {
+  margin: 0;
+  font-size: 0.96rem;
+  color: #c5a059;
+  font-weight: 600;
+}
+
+.focus {
+  color: #596372;
+  font-size: 0.95rem;
+  max-width: 36rem;
+}
+
+@media (max-width: 760px) {
+  .section {
+    padding: 4rem 1rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

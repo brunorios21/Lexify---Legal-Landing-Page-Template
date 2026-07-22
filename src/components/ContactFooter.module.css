@@ -1,0 +1,25 @@
+.footer {
+  background: linear-gradient(180deg, #071422 0%, #0a192f 100%);
+  color: white;
+  padding: 1.5rem 2rem 2rem;
+}
+
+.bottomBar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.4rem;
+  border-top: 1px solid rgba(255,255,255,0.14);
+  color: rgba(255,255,255,0.72);
+  font-size: 0.92rem;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    padding: 1.25rem 1rem 1.5rem;
+  }
+
+  .bottomBar {
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+}
